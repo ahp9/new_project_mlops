@@ -1,0 +1,23 @@
+model:
+  _target_: new_project_mlops.model.MyAwesomeModel
+
+data:
+  raw_dir: data/raw
+  batchsize: 64
+  shuffle: true
+
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 0.001
+
+train:
+  epochs: 10
+
+loss:
+  _target_: torch.nn.CrossEntropyLoss
+
+artifacts:
+  models_dir: data/models
+  figures_dir: reports/figures
+  checkpoint_name: model.pt
+  plot_name: training_statistics.png
