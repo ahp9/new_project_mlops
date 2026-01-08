@@ -1,0 +1,89 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            6ga3jooxhy70syng7mbpiobehw2uqrsa:
+                args:
+                    - --batch_size=32
+                    - --epochs=5
+                    - --learning_rate=0.004938146713090865
+                codePath: src\new_project_mlops\train.py
+                codePathLocal: src\new_project_mlops\train.py
+                cpu_count: 12
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "509722226688"
+                        used: "397516693504"
+                email: ahp9@hi.is
+                executable: C:\Users\astri\AppData\Local\Programs\Python\Python314\python.exe
+                git:
+                    commit: 1ca2fb2965c003a4ec8188137f9f651192e064d8
+                    remote: https://github.com/ahp9/new_project_mlops.git
+                host: DESKTOP-98E2PN1
+                memory:
+                    total: "16890978304"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\astri\Documents\DTU\3.önn\ML Ops\Cookiecutter\new_project_mlops\src\new_project_mlops\train.py
+                python: CPython 3.14.2
+                root: C:\Users\astri\Documents\DTU\3.önn\ML Ops\Cookiecutter\new_project_mlops
+                startedAt: "2026-01-08T11:00:12.612087Z"
+                writerId: 6ga3jooxhy70syng7mbpiobehw2uqrsa
+        m: []
+        python_version: 3.14.2
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 14
+                - 16
+                - 61
+            "4": 3.14.2
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+        visualize:
+            conf_mat:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: conf_mat_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+batch_size:
+    value: 32
+epochs:
+    value: 5
+learning_rate:
+    value: 0.004938146713090865
