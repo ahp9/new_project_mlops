@@ -1,5 +1,5 @@
 coverage==7.6.9
-invoke==2.2.0
+invoke==2.2.1
 mkdocs-material==9.4.6
 mkdocs==1.6.1
 pre-commit==4.1.0
