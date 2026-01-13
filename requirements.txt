@@ -1,7 +1,7 @@
-torch==2.9.0
-typer==0.15.2
+datasets>=4.4.2
 fastapi==0.115.12
+pillow>=12.1.0
+torch==2.9.0
+torchvision==0.24.0
+typer==0.15.2
 uvicorn==0.34.2
-ruff==0.14.10
-matplotlib==3.10.8
-scikit-learn===1.8.0
